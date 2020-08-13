@@ -1,55 +1,157 @@
-# Phaser 3 Webpack Project Template
+<!--
+*** Thanks for checking out this README Template. If you have a suggestion that would
+*** make this better, please fork the repo and create a pull request or simply open
+*** an issue with the tag "enhancement".
+*** Thanks again! Now go create something AMAZING! :D
+-->
 
-A Phaser 3 project template with ES6 support via [Babel 7](https://babeljs.io/) and [Webpack 4](https://webpack.js.org/)
-that includes hot-reloading for development and production-ready builds.
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
+[![Contributors][contributors-shield]][contributors-url] 
+[![Forks][forks-shield]][forks-url] 
+[![Stargazers][stars-shield]][stars-url] 
+[![Issues][issues-shield]][issues-url] 
+![Hireable](https://cdn.rawgit.com/hiendv/hireable/master/styles/default/yes.svg) 
 
-Loading images via JavaScript module `import` is also supported.
+# Dung-Salvation-Shooter-Game-JS
 
-## Requirements
+>  Shooter game built with Javascript using Phaser and Webpack. Capstone Project for Microverse on the top of my Javascript knowledge.
 
-[Node.js](https://nodejs.org) is required to install dependencies and run scripts via `npm`.
+Landing Page:
+![screenshot](./assets/screenshots/title.png)
 
-## Available Commands
+First Stage:
+![screenshot](./assets/screenshots/game.png)
 
-| Command | Description |
-|---------|-------------|
-| `npm install` | Install project dependencies |
-| `npm start` | Build project and open web server running project |
-| `npm run build` | Builds code bundle with production settings (minification, uglification, etc..) |
+Animated GIF:
+![](game.gif)
 
-## Writing Code
+## Game Design Document
 
-After cloning the repo, run `npm install` from your project directory. Then, you can start the local development
-server by running `npm start`.
+Kindly check my Game Design Document [GDD](assets/docs/gamedesigndocument.md)
+
+## Built With
+
+- HTML 
+- CSS
+- JAVASCRIPT
+- PHASER 3
+- NPM
+- WEBPACK
+- EXPRESS
+- BOOTSTRAP
+- JEST
+- GITHUB ACTIONS
+
+## Live Demo
+
+[Live Demo Link](https://javitocor.github.io/Dung-Salvation-Shooter-Game-JS/) :point_left:
+
+## Instructions to Play
+
+- Click the option you want in the Landing Scene.
+
+- Press 'Play' to start playing.
+
+- Press 'Options' to enable/disable sound features.
+
+- Press 'Credits' to see who made it possible.
+
+- Press 'Leaders' to see the 5 best scores.
+
+- To play you need the Keyboard and the Mouse.
+
+- CONTROLS:
+
+  - Press 'A' to move LEFT.
+
+  - Press 'D' to move RIGHT.
+
+  - Press 'W' to move UP.
+
+  - Press 'S' to move DOWN.
+
+  - Press 'SpaceBar' to SHOOT.
+
+- Use the mouse for the non-game and dialogues screens.
+
+- ENJOY!
 
 
-After starting the development server with `npm start`, you can edit any files in the `src` folder
-and webpack will automatically recompile and reload your server (available at `http://localhost:8080`
-by default).
+## Getting Started
 
-## Customizing Template
+### Usage
 
-### Babel
-You can write modern ES6+ JavaScript and Babel will transpile it to a version of JavaScript that you
-want your project to support. The targeted browsers are set in the `.babelrc` file and the default currently
-targets all browsers with total usage over "0.25%" but excludes IE11 and Opera Mini.
+- Click the Live Demo link and enjoy playing Dung Salvation.
 
-  ```
-  "browsers": [
-    ">0.25%",
-    "not ie 11",
-    "not op_mini all"
-  ]
-  ```
+### Prerequisites
 
-### Webpack
-If you want to customize your build, such as adding a new webpack loader or plugin (i.e. for loading CSS or fonts), you can
-modify the `webpack/base.js` file for cross-project changes, or you can modify and/or create
-new configuration files and target them in specific npm tasks inside of `package.json'.
+- A modern browser, up to date.  :muscle:
 
-## Deploying Code
-After you run the `npm run build` command, your code will be built into a single bundle located at 
-`dist/bundle.min.js` along with any other assets you project depended. 
+### Setup
 
-If you put the contents of the `dist` folder in a publicly-accessible location (say something like `http://mycoolserver.com`), 
-you should be able to open `http://mycoolserver.com/index.html` and play your game.
+- Clone the repository on your local machine
+- Cd into the folder
+- Run `npm install`
+- Run `npm start`
+- On your browser, make sure you point to the right address (i.e: http://localhost:8080/)
+
+### Run tests
+
+- Run ```npm test``` on the root directory to run all the tests.
+- Run `npm test -- --verbose` on the root directory to run all the tests and see for what it is each test.
+- Run ```npm test testfile.test.js ``` on root directory to run test for a single file.
+
+## Future features
+
+- Add extra stages, weapons and effects.
+- Add more enemies
+- Add images in the dialogues scenes
+- Modify the assets
+- Add animations
+- Add a pause scene 
+
+## Author
+
+👤 Javier Oriol Correas Sanchez Cuesta 
+- Github: [@javitocor](https://github.com/javitocor) 
+- Twitter: [@JavierCorreas4](https://twitter.com/JavierCorreas4) 
+- Linkedin: [Javier Oriol Correas Sanchez Cuesta](https://www.linkedin.com/in/javier-correas-sanchez-cuesta-15289482/) 
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/javitocor/Dung-Salvation-Shooter-Game-JS/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments 🚀
+
+- Phaser 3 docs
+- StackOverFlow
+- Microverse
+- https://opengameart.org/
+
+## 📝 License
+
+This project is [MIT](lic.url) licensed.
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/javitocor/Dung-Salvation-Shooter-Game-JS.svg?style=flat-square
+[contributors-url]: https://github.com/javitocor/Dung-Salvation-Shooter-Game-JS/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/javitocor/Dung-Salvation-Shooter-Game-JS.svg?style=flat-square
+[forks-url]: https://github.com/javitocor/Dung-Salvation-Shooter-Game-JS/network/members
+[stars-shield]: https://img.shields.io/github/stars/javitocor/Dung-Salvation-Shooter-Game-JS.svg?style=flat-square
+[stars-url]: https://github.com/javitocor/Dung-Salvation-Shooter-Game-JS/stargazers
+[issues-shield]: https://img.shields.io/github/issues/javitocor/Dung-Salvation-Shooter-Game-JS.svg?style=flat-square
+[issues-url]: https://github.com/javitocor/Dung-Salvation-Shooter-Game-JS/issues
